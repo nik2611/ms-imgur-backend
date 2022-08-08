@@ -1,4 +1,4 @@
-# Milestone-6: Imgur Backend - Deployed on Heroku. Open it through below link.
+# Milestone-6: Imgur Backend - Deployed on Heroku. Open it through the link below .
 https://ms-imgur-backend.herokuapp.com/
 
 ## Learning Competencies
