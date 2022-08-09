@@ -1,23 +1,27 @@
 {
-  "name": "ms-imgur-backend",
+  "name": "ms_imgur---backend_ursa_tep_online_full-time_2022_2",
   "version": "1.0.0",
   "description": "## Learning Competencies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nik2611/ms-imgur-backend.git"
+    "url": "git+https://github.com/exponentsoftware/MS_Imgur---backend_Ursa_Tep_Online_Full-time_2022_2.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nik2611/ms-imgur-backend/issues"
+    "url": "https://github.com/exponentsoftware/MS_Imgur---backend_Ursa_Tep_Online_Full-time_2022_2/issues"
   },
-  "homepage": "https://github.com/nik2611/ms-imgur-backend#readme",
+  "homepage": "https://github.com/exponentsoftware/MS_Imgur---backend_Ursa_Tep_Online_Full-time_2022_2#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.1",
+    "nodemon": "^2.0.19"
   }
 }

@@ -1,24 +1,26 @@
 //import statements
 const express = require("express");
+const dotenv = require("dotenv");
+const mongoose = require("./utils/db");
+const imageRouter = require('./routes/image.route');
+
+
 
 //configuration
+const port = process.env.PORT || 9000;
+dotenv.config();
+mongoose();
+
 
 //app initialisation
 const app = express();
 
 
-
 //app middlewares
+app.use(express.json());
+app.use(imageRouter);
 
-//app routes
-app.get("/", (req, res) => {
-
-    const {name} = req.query;
-    console.log(name);
-    res.send(`Hello ${name}. Welcome to my server`);
-
-})
 
 //app listen
-app.listen(process.env.PORT || 8000, () => {console.log("The server started at port 8000")})
+app.listen(port, () => {console.log(`The server started at port ${port}`)})
 
